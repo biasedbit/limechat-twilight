@@ -1,6 +1,6 @@
 html {
   font-family: "Dejavu Sans Mono";
-  font-size: 9pt;
+  font-size: 8pt;
   background-color: #202020;
   color: #FFFFFF;
   padding: 0;
@@ -30,15 +30,15 @@ a {
 .place { color: #9a703f; }
 
 /* Nicks */
-.sender[type=normal] { color: #c4af75; font-weight: bold; margin-right: 1.5ex; }
-.sender[type=myself] { color: #8996A8; font-weight: bold; margin-right: 1.5ex; }
+.sender[type=normal] { color: #c4af75; font-weight: normal; margin-right: 1.5ex; }
+.sender[type=myself] { color: #8996A8; font-weight: normal; margin-right: 1.5ex; }
 
 /* Messages */
 .message[type=privmsg] { color: #FFFFFF; }
 .message[type=action] { color: inherit;}
 .message[type=notice] { color: #daefa3; }
 .message[type=system] { color: #808080; }
-.message[type=error] { color: #ca773f; font-weight: bold; }
+.message[type=error] { color: #ca773f; font-weight: normal; }
 .message[type=reply] { color: #f9ed97; }
 .message[type=error_reply] { color: #e3c59c; }
 .message[type=dcc_send_send] { color: #5e5960; }
