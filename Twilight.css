@@ -1,6 +1,6 @@
 html {
-  font-family: "Dejavu Sans Mono";
-  font-size: 8pt;
+  font-family: "SourceCodePro-Regular";
+  font-size: 14px;
   background-color: #202020;
   color: #FFFFFF;
   padding: 0;
@@ -8,21 +8,21 @@ html {
 }
 
 body {
-	margin: 0;
-  	padding: 0.5ex 1.5ex;
+    margin: 0;
+    padding: 0.5ex 1.5ex;
 }
 
 body.console {
 }
 
 body.normal {
-	line-height: 3.2ex;
+    line-height: 3.2ex;
 }
 
 hr { margin: 0.5em 2em; }
 
 a {
-	color: inherit;
+    color: inherit;
 }
 
 .line  { padding: 0.2ex 0; }
@@ -57,16 +57,16 @@ a {
 .message[type=debug_receive] { color: #5e5960; }
 
 .highlight {
-	color: #ca773f;
-	font-weight: normal;
+    color: #ca773f;
+    font-weight: normal;
 }
 
 /* Special spans */
 .url {
-	word-break: break-all;
+    word-break: break-all;
 }
 .address {
-	text-decoration: underline; word-break: break-all;
+    text-decoration: underline; word-break: break-all;
 }
 
 /* Messages in main view, but not console */
@@ -97,52 +97,52 @@ body.normal .message[type=debug_receive]    { padding-left: 22ex; }
 /* Spans in line */
 
 body.normal .time {
-	display: block;
-	float: right;
-	padding-left: 1ex;
-	visibility: hidden;
+    display: block;
+    float: right;
+    padding-left: 1ex;
+    visibility: hidden;
 }
 body.normal .line:hover .time {
-	visibility: visible;
+    visibility: visible;
 }
 
 body.normal .sender[type=normal], body.normal .sender[type=myself] {
-	display: block;
-	float: left;
-	padding-right: 0.3ex;
-	text-align: right;
-	width: 20ex;
+    display: block;
+    float: left;
+    padding-right: 0.3ex;
+    text-align: right;
+    width: 20ex;
 }
 
 body.normal div.line[type=action] .sender[type=normal], div.line[type=action] .sender[type=myself] {
-	width: auto;
-	padding-left: 19ex;
-	margin-right: 1ex;
-	color: #8996A8;
-	background-color: transparent;
+    width: auto;
+    padding-left: 19ex;
+    margin-right: 1ex;
+    color: #8996A8;
+    background-color: transparent;
 }
 
 body.normal div.line[type=action] .sender[type=normal]::before, div.line[type=action] .sender[type=myself]::before {
-	content: "•";
-	padding-right: 1.5ex;
+    content: "•";
+    padding-right: 1.5ex;
 }
 
 
 body.normal .line[highlight=true] > .sender[type=normal] {
-	margin-left: -1ex;
-	padding-left: 0.2ex;
-	padding-right: 0.8ex;
-	-webkit-border-top-right-radius: 3px;
-	-webkit-border-bottom-right-radius: 3px;
-	line-height:3ex;
-	background-color: #3B434C;
-/*	background-color: #48515C;*/
-	color: #CF6A4C;
+    margin-left: -1ex;
+    padding-left: 0.2ex;
+    padding-right: 0.8ex;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    line-height:3ex;
+    background-color: #3B434C;
+/*  background-color: #48515C;*/
+    color: #CF6A4C;
 }
 
 body.normal .sender[type=myself]:after {
-	content: " ★";
-	color: #6E7B8D;
+    content: " ★";
+    color: #6E7B8D;
 }
 
 .line[highlight=true] {
